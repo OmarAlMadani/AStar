@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070A6E4F1DCC875200B772C8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 070A6E4E1DCC875200B772C8 /* main.c */; };
+		070A6E621DCC8BBB00B772C8 /* status.c in Sources */ = {isa = PBXBuildFile; fileRef = 070A6E5F1DCC8BBB00B772C8 /* status.c */; };
+		070A6E641DCC8C5500B772C8 /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = 070A6E631DCC8C5500B772C8 /* List.c */; };
+		075D31131DE5E43A0067F7AB /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 075D31121DE5E43A0067F7AB /* makefile */; };
+		07DB82F91DDF039400E933BB /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 07DB82F71DDF039400E933BB /* map.c */; };
+		07DB82FB1DDF091E00E933BB /* TestMap.c in Sources */ = {isa = PBXBuildFile; fileRef = 07DB82FA1DDF091E00E933BB /* TestMap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,15 @@
 
 /* Begin PBXFileReference section */
 		070A6E4B1DCC875200B772C8 /* GenericList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GenericList; sourceTree = BUILT_PRODUCTS_DIR; };
-		070A6E4E1DCC875200B772C8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		070A6E5D1DCC8BBB00B772C8 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		070A6E5F1DCC8BBB00B772C8 /* status.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = status.c; sourceTree = "<group>"; };
+		070A6E601DCC8BBB00B772C8 /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		070A6E631DCC8C5500B772C8 /* List.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = List.c; sourceTree = "<group>"; };
+		075D31121DE5E43A0067F7AB /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		07DB82F71DDF039400E933BB /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
+		07DB82F81DDF039400E933BB /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		07DB82FA1DDF091E00E933BB /* TestMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestMap.c; sourceTree = "<group>"; };
+		07DB82FC1DDF15AC00E933BB /* FRANCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FRANCE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		070A6E4D1DCC875200B772C8 /* GenericList */ = {
 			isa = PBXGroup;
 			children = (
-				070A6E4E1DCC875200B772C8 /* main.c */,
+				07DB82FC1DDF15AC00E933BB /* FRANCE.txt */,
+				070A6E5D1DCC8BBB00B772C8 /* List.h */,
+				070A6E5F1DCC8BBB00B772C8 /* status.c */,
+				070A6E601DCC8BBB00B772C8 /* status.h */,
+				070A6E631DCC8C5500B772C8 /* List.c */,
+				075D31121DE5E43A0067F7AB /* makefile */,
+				07DB82F71DDF039400E933BB /* map.c */,
+				07DB82F81DDF039400E933BB /* map.h */,
+				07DB82FA1DDF091E00E933BB /* TestMap.c */,
 			);
 			path = GenericList;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070A6E4F1DCC875200B772C8 /* main.c in Sources */,
+				070A6E621DCC8BBB00B772C8 /* status.c in Sources */,
+				070A6E641DCC8C5500B772C8 /* List.c in Sources */,
+				075D31131DE5E43A0067F7AB /* makefile in Sources */,
+				07DB82FB1DDF091E00E933BB /* TestMap.c in Sources */,
+				07DB82F91DDF039400E933BB /* map.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +270,7 @@
 				070A6E541DCC875200B772C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
